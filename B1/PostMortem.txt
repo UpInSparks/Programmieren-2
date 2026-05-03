@@ -1,4 +1,28 @@
 B01 Post Mortem
 Dario Engelking
 
+Zusammenfassung: Was wurde gemacht?
+Die Standard Nutzung von Git wurde gemacht.
+Die Erklärung von Git Status.
+Die Typischen Befehle mit ein paar varianten wurden genutzt um dessen Nutzung näher zu bringen
+Dies wurde durch das gegebene Repo (Gitquest) gemacht.
 
+Das einlesen und verstehen von git logs wie man diese verändert neue macht und generell Navigiert
+
+Der 2. Teil war ein Enviroment zu holen die KI elemente auszuschalten und Gradle darauf zum laufen zu bekommen und auch gradle ohne IDE zu nutzen.
+In meinem Fall habe ich mir IntelleJ zu mir genommen und es zum laufen bekommen.
+Das Plugin zur reformatierung von Code (Spotless) hat am meisten Probleme gemacht aber es funktioniert mitlerweile
+
+Details: Kurze Beschreibung besonders interessanter Aspekte.
+Besonders Interessant war es ein neues Enviroment auszuprobieren und dort einen Workflow einzubauen, weil es halt einfach eine Änderung von der Norm war.
+
+Reflexion: Was war der schwierigste Teil? Wie haben Sie dieses Problem gelöst?
+Der schwierigste Teil war Spotless zum laufen zu bekommen, da dies für mich nur probleme gemacht hat und meistens erst nur fehler an meine Stirn geworfen hat,
+aber nach einer Stunde an fehler behebung und das github lesen habe ich es dann auch zum laufen bekommen auf intelliJ.
+
+
+Reflexion: Was haben Sie gelernt oder (besser) verstanden?
+Git habe ich gelernt besser zu verstehen und mehr zu nutzen, aber am meisten habe ich gelernt bei Gradle weil ich mich vorher nicht viel damit auseinander gesetzt habe.
+
+Link zu Ihrem Repo/Branch/PR mit den relevanten Artefakten.
+https://github.com/UpInSparks/Programmieren-2/tree/main/B1
