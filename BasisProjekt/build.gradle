@@ -1,0 +1,39 @@
+plugins {
+	id 'groovy'
+	id("com.diffplug.spotless") version "8.4.0"
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.apache.groovy:groovy:5.0.0'
+	testImplementation platform('org.junit:junit-bom:6.0.0')
+	testImplementation 'org.junit.jupiter:junit-jupiter'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test {
+	useJUnitPlatform()
+}
+
+spotless {
+	groovy {
+		// Use the default version and Groovy-Eclipse default configuration
+		greclipse()
+		// optional: you can specify a specific version or config file(s), version matches the Eclipse Platform
+		greclipse('4.26').configFile('spotless.eclipseformat.xml', 'org.codehaus.groovy.eclipse.ui.prefs')
+		// Or supply the configuration properties as a string
+		greclipse('4.26').configProperties("""
+    ...
+    """)
+		// Or supply the configuration XML as a string
+		greclipse('4.26').configXml("""
+    ...
+    """)
+	}
+}
