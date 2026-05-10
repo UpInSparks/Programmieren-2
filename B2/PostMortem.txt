@@ -1,1 +1,21 @@
+Blatt 02
 
+Zusammenfassung: Was wurde gemacht?
+Weitere Git Aufgaben basierend auf Branches und wie diese funktionieren mit Merges und abspaltungen, Danacha in Java Testfälle schreiben und verstehen für ein KatzenKaffee.
+Erstellung einer CI-Pipeline
+
+Details: Kurze Beschreibung besonders interessanter Aspekte.
+Die Aufgabe für das Katzen Cafe war am interessantesten. Sich Testfälle auszudenken und darüber zu verstehen wie man diese macht war gut zu lernen.
+
+Reflexion: Was war der schwierigste Teil? Wie haben Sie dieses Problem gelöst?
+Der schwierigste Teil der Aufgabe war die CI-Pipeline zum laufen zu bekommen mit Spotless, verglichen dazu ein paar test schreiben ist nichts.
+Entweder hat es was bei Formatierung nicht funktioniert oder bei der kompilierung, hauptpunkt war aber das der gradle-wrapper.jar nicht hinzugefügt wurde bei "git add ."
+wegen dem ".gitignore"
+
+Reflexion: Was haben Sie gelernt oder (besser) verstanden?
+Ich habe gelernt wie Git Branches aufgebaut sind und wie git Merge funktioniert und wie man mit JUnit Testfälle erstellt und diese dann auch nutzt.
+Ich muss definitiv mit ein paar anderen test aufgaben Ci-pipelines mir genauer ansehen.
+
+Link zu Ihrem Repo/Branch/PR mit den relevanten Artefakten.
+https://github.com/UpInSparks/Programmieren-2/tree/main/B2
+https://github.com/UpInSparks/catcafe/tree/main
