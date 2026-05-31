@@ -53,6 +53,9 @@ commit 38be9017998568a8dab20e3cfbe8e7cf0580ad23
 wieder mit grep aber 'experience' mit 'hunger' austauschen
 38be901 tag 04.1 wurde zum ersten mal hunger 10 erreicht
 
+git log --oneline -G "hunger[[:space:]]*\| 10" -- stats.md
+Tag 2 78f1f49 
+
 -   Wie viele Heiltränke hat der Held insgesamt in seinem Rucksack gehabt?
 git log -p -- rucksack.md | grep 'Heiltrank'
 
