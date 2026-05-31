@@ -25,4 +25,8 @@ Reflexion: Was haben Sie gelernt oder (besser) verstanden?
 Git habe ich gelernt besser zu verstehen und mehr zu nutzen, aber am meisten habe ich gelernt bei Gradle weil ich mich vorher nicht viel damit auseinander gesetzt habe.
 
 Link zu Ihrem Repo/Branch/PR mit den relevanten Artefakten.
+<<<<<<< HEAD
 https://github.com/UpInSparks/Programmieren-2/tree/main/B1
+=======
+https://github.com/UpInSparks/Programmieren-2/tree/main/B1
+>>>>>>> refs/remotes/origin/main
