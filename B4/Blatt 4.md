@@ -1,61 +1,14 @@
 # Blatt 4
 ## Aufgabe 1
 ### 1.1 MiniJavaTokens.java
-MiniJavaTokens.java beinhält 
-die RegEx und die Farben zuweisung
+MiniJavaTokens.java beinhält die Tokens für 
 
-public static List<Token> defaultTokens() {
-        return List.of(
- 
-         JavaDoc
-            Token.of(
-                Pattern.compile("/\\*\\*.*?\\*/", Pattern.DOTALL),
-                MiniJavaColours.JAVADOC_COMMENT
-            ),
- 
-         block comment
-                Pattern.compile("/\\*.*?\\*/", Pattern.DOTALL),
-                MiniJavaColours.COMMENT
-            ),
- 
-         comment
-            Token.of(
-                Pattern.compile("//[^\\n\\r]*"),
-                MiniJavaColours.COMMENT
-            ),
- 
-         string " .... "
-            Token.of(
-                Pattern.compile("\"(?:[^\"\\\\]|\\\\.)*\""),
-                MiniJavaColours.STRING
-            ),
-         ' .... '
-            Token.of(
-                Pattern.compile("'(?:[^'\\\\]|\\\\.)'"),
-                MiniJavaColours.STRING   // gleiche Farbe wie Strings
-            ),
-         annotation
-            Token.of(
-                Pattern.compile("@\\w+"),
-                MiniJavaColours.ANNOTATION
-            ),
-         Keywords
-            Token.of(
-                Pattern.compile(
-                    "\\b(package|import|class|interface|enum|extends|implements|"
-                    + "public|private|static|abstract|"
-                    + "return|null|"
-                    + "if|else|while|for"
-                    + "int|long|double|float|boolean|char|byte|void|"
-                    + "true|false)\\b"
-                ),
-                MiniJavaColours.KEYWORD
-            ),
-         numbers
-            Token.of(
-                Pattern.compile("\\b\\d+\\b"),
-                MiniJavaColours.NUMBER
-            ) 
+JavaDoc
+comments
+string
+annotation
+keywords
+numbers
 
 ### 1.2 MiniJavaTokensTest.java
 
@@ -110,6 +63,17 @@ im Given, when, then Format
 ## Aufgabe 4
 ### 4.1 CI-Pipeline
 
+Die Ci Pipeline ist zufinden im 
+prog2_ybel_syntaxhighlighting/.github/workflows
+
+Dieses baut, testet und formatiert mit Spotless
+
 ### 4.2 Branches und Pull Requests
 
+Die Branches lauten master
+RegexHighlighter
+minijavatokens
+
 ### 4.3 Gegenseitige Reviews der PR
+
+Die Pullrequest wurden mit Maxim Pass gemacht.
