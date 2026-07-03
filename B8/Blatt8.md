@@ -43,4 +43,5 @@ das logging wird durch ein typsicheres Fehlermodell mit einem Result Interface g
 Die Commands geben ein Success oder Failure Record mit dem ZooError Enum zurück.
 Die Auswertung dieser Ergebnisse erfolgt im COmmandManager um das Log Level zu geben(FINE, WARNING, SEVERE)
 
-## Zum Testen habe gibt es CommandDemo.java
+## Demo
+Zum Testen habe gibt es CommandDemo.java
