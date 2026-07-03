@@ -1,0 +1,10 @@
+Zusammenfassung: Was wurde gemacht?
+
+Details: Kurze Beschreibung besonders interessanter Aspekte.
+
+Reflexion: Was war der schwierigste Teil? Wie haben Sie dieses Problem gelöst?
+
+Reflexion: Was haben Sie gelernt oder (besser) verstanden?
+
+Link zu Ihrem Repo/Branch/PR mit den relevanten Artefakten.
+https://github.com/UpInSparks/Programmieren-2
