@@ -38,7 +38,9 @@ Der CommandManager steuert die Ausführung von Gehege Aktionen und managed die H
 durch 2 getrennte Stacks für undo und Redo.
 Managed das logging von Zoo indem man das Result von Commands abfängt und protokolliert.
 
-## Aufgabe 3 `Result<E,R>`
+# Aufgabe 3 `Result<E,R>`
 das logging wird durch ein typsicheres Fehlermodell mit einem Result Interface gemacht.
 Die Commands geben ein Success oder Failure Record mit dem ZooError Enum zurück.
 Die Auswertung dieser Ergebnisse erfolgt im COmmandManager um das Log Level zu geben(FINE, WARNING, SEVERE)
+
+## Zum Testen habe gibt es CommandDemo.java
